@@ -48,6 +48,12 @@ public class App {
         
         
         studi_1.doSomething();
+        
+        boolean lockdown = studi_1.schauZIB();
+        
+        studi_1.setLockdown(lockdown);
+        
+        studi_1.lerne();
     }
     
 }
