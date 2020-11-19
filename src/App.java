@@ -45,8 +45,6 @@ public class App {
         studi_1.setAlter(alter);
         studi_1.setAktiv(aktiv);
         
-        
-        
         studi_1.doSomething();
         
         boolean lockdown = studi_1.schauZIB();
